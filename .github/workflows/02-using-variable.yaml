@@ -27,7 +27,7 @@ jobs:
         echo "Lieux de formation: $FORMATION_CENTER"
      - name: variable github
        run: |
-          echo "Project name : ${{ var.PROJECT_NAME }}"  
+          echo "Project name : ${{ vars.PROJECT_NAME }}"  
           echo "user_pwd : ${{ secrets.USER_Password }}"
           echo "Mode selected : {{ vars.MODE}}"
        
