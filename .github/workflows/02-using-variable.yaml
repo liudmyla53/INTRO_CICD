@@ -22,6 +22,6 @@ jobs:
        run: echo "Déploimnet de la branche $GITHUB_REF"
      - name: show formation location
     # Exemple d'une variable d'en
-       run:
+       run: |
         echo "Lieux de formation: $FORMATION_CENTER"
        
