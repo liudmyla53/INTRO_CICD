@@ -52,3 +52,12 @@ L'ensemble d'action à faire
   - Sous linux : `$VAR_NAME`
   - Sous powershell : `$env:VAR_NAME`
 
+#### Variable et secrets dans Github
+Aller à `Setting>Screts and variables>Actions` pour configurer les variables.
+Deux types de configuration :
+- Repository: Toujour accessible
+- Environment: Accessible si le job utilise `environment: env-name`
+
+Utilisation 
+- varibales
+- 
