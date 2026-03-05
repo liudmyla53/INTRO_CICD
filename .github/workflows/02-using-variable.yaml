@@ -19,8 +19,9 @@ jobs:
     steps:
      - name: confirm deploy 
      # Exemple d'une variable d'env pré-configuré
-       run: echo "Déploimnet de la branches $GITHUB_REF"
+       run: echo "Déploimnet de la branche $GITHUB_REF"
      - name: show formation location
     # Exemple d'une variable d'en
        run:
         echo "Lieux de formation: $FORMATION_CENTER"
+       
